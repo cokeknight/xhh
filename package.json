@@ -8,7 +8,8 @@
     "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.5.0",
     "egg-view-nunjucks": "^2.2.0",
-    "moment": "^2.22.2"
+    "moment": "^2.22.2",
+    "querystring": "^0.2.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
