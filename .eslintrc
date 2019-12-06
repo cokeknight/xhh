@@ -1,3 +1,74 @@
 {
-  "extends": "eslint-config-egg"
+  "extends": "airbnb",
+  "parser": "typescript-eslint-parser",
+  "plugins": ["import"],
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".ts"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "allow-parents": [1],
+    "no-console": "off",
+    "no-underscore-dangle":[0],
+    "no-lonely-if": [0],
+    "linebreak-style": ["off"],
+    "no-multi-spaces":[0],
+    "dot-notation":[0],
+    "generator-star-spacing": ["error", {"before": false, "after": true}],
+    "max-len": ["warn",10000],
+    "spaced-comment":[0],
+    "no-return-assign":[0],
+    "no-plusplus":[0],
+    "no-param-reassign":[0],
+    "no-unused-expressions":[0],
+    "class-methods-use-this":[0],
+    "no-eval":[0],
+    "no-mixed-operators":[0],
+    "no-useless-constructor":[0],
+    "guard-for-in":[0],
+    "semi": ["error", "always"],
+    "object-property-newline":[0],
+    "allowMultiplePropertiesPerLine":[0],
+    "no-useless-concat":[2],
+    "prefer-destructuring":[0],
+    "consistent-return": [0],
+    "eqeqeq": 0,
+    "global-require": [1],
+    "import/prefer-default-export": [0],
+    "one-var": 0,
+    "no-else-return": [0],
+    "no-restricted-syntax": [0],
+    "import/no-extraneous-dependencies": [0],
+    "no-use-before-define": [0],
+    "camelcase": 0,
+    "no-unused-vars": 1,
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore"
+    }],
+    "object-curly-newline": [0],
+    "function-paren-newline": [0],
+    "no-restricted-globals": [0],
+    "require-yield": [1]
+  },
+  "globals": {
+    "app": true,
+    "request": true,
+    "mm": true,
+    "mock": true,
+    "assert": true,
+    "$": true
+  }
 }

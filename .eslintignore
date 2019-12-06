@@ -1,1 +1,6 @@
+test/*
 coverage
+node_modules/*
+run/*
+.idea/*
+app/public/node_modules/*

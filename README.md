@@ -1,6 +1,6 @@
-# xhh_stock
+# cat_admin
 
-
+后端入口项目
 
 ## QuickStart
 
@@ -9,18 +9,18 @@
 see [egg docs][egg] for more detail.
 
 ### Development
-
-```bash
-$ npm i
+```shell
+$ npm install
 $ npm run dev
-$ open http://localhost:7001/
+$ open http://localhost:7001/news
 ```
 
 ### Deploy
 
-```bash
-$ npm start
-$ npm stop
+Use `EGG_SERVER_ENV=prod` to enable prod mode
+
+```shell
+$ EGG_SERVER_ENV=prod npm start
 ```
 
 ### npm scripts
@@ -30,4 +30,4 @@ $ npm stop
 - Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
 
 
-[egg]: https://eggjs.org# xhh
+[egg]: https://eggjs.org
