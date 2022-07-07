@@ -20,7 +20,7 @@
     "egg-view-ejs": "^1.1.0",
     "egg-view-nunjucks": "^2.0.0",
     "jsonwebtoken": "^8.4.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "mysql": "^2.17.1",
     "mysql2": "^1.6.4",
     "passport-local": "^1.0.0",
